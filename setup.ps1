@@ -1,4 +1,4 @@
-﻿function Show-Menu {
+function Show-Menu {
     Clear-Host
     Write-Host "=========================================="
     Write-Host "           ГЛАВНОЕ МЕНЮ                   "
