@@ -162,9 +162,8 @@ do {
                 Write-Host "некорректного пути.              "
             }
             
-            Write-Host "`nНажмите любую клавишу для         "
-            Write-Host "продолжения...                      "
-            $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+            Write-Host "`nНажмите Enter для продолжения..."
+            Read-Host
         }
         "0" {
             Write-Host "`nЗавершение работы...              "
